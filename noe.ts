@@ -8,7 +8,7 @@ class Animal implements AnimalConfig {
     color?: string;
     readonly type: string;
     readonly footNumber: number;
-    
+
     constructor(theName: string, theColor?: string) {
         this.name = theName;
         this.color = theColor;
@@ -20,7 +20,7 @@ class Cat extends Animal {
     footNumber: number;
     constructor(name: string, color?: string) {
         super(name, color),
-            this.type = "Chat";
+        this.type = "Chat";
         this.footNumber = 4;
     }
 }
@@ -31,7 +31,7 @@ class Dog extends Animal {
     footNumber: number;
     constructor(name: string, color?: string) {
         super(name, color),
-            this.type = "Chien";
+        this.type = "Chien";
         this.footNumber = 4;
     }
 }
@@ -42,7 +42,7 @@ class Bird extends Animal {
     footNumber: number;
     constructor(name: string, color?: string) {
         super(name, color),
-            this.type = "Oiseau";
+        this.type = "Oiseau";
         this.footNumber = 2;
     }
 }
@@ -52,7 +52,7 @@ class Fish extends Animal {
     footNumber: number;
     constructor(name: string, color?: string) {
         super(name, color),
-            this.type = "Poisson";
+        this.type = "Poisson";
         this.footNumber = 0;
     }
 }
